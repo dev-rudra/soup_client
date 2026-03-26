@@ -125,3 +125,6 @@ soup_client                 frame_encoder                 socket
     |                           |                           |
     |                           |                           | bytes on wire
 ```
+
+*** In Short
+SoupBinTCP wraps every message with a 2-byte length and 1-byte type so the receiver always know exactly how many bytes to read - solving TCP's lack of message boundaries.
