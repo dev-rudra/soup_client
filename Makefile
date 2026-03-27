@@ -5,6 +5,7 @@ INCLUDES = -I include
 SOURCES  = src/socket.cpp \
 		   src/config_parser.cpp \
 		   src/frame_encoder.cpp \
+		   src/frame_decoder.cpp \
            src/main.cpp
 
 TARGET   = ouch_client
